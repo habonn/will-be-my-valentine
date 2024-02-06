@@ -1,10 +1,19 @@
 {
+  "homepage": "https://habonn.github.io/will-be-my-valentine",
   "dependencies": {
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "antd": "5.14.0"
   },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "clean": "rm dist/bundle.js",
+    "start": "react-scripts start",
+    "build-prod": "parcel build src/index.html"
+  },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "react-scripts": "^5.0.1"
   }
 }
