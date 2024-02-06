@@ -6,11 +6,9 @@
     "antd": "5.14.0"
   },
   "scripts": {
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "clean": "rm dist/bundle.js",
-    "start": "react-scripts start",
-    "test": "echo \"Error: no test specified\" && sexit 1"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
