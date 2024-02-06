@@ -10,10 +10,23 @@
     "deploy": "gh-pages -d build",
     "clean": "rm dist/bundle.js",
     "start": "react-scripts start",
-    "build-prod": "parcel build src/index.html"
+    "test": "echo \"Error: no test specified\" && sexit 1"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1"
-  }
+  },
+  "name": "react-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habonn/will-be-my-valentine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habonn/will-be-my-valentine/issues"
+  },
+  "description": ""
 }
