@@ -10,15 +10,26 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures that the container takes up the full height of the viewport */
+}
+
+.page {
+  text-align: center;
+}
+
 .App {
   color: #72a24d;
 }
 
-.container {
+/* .container {
   display: none;
   text-align: center;
 }
 
 .page {
   display: block;
-}
+} */
