@@ -20,8 +20,8 @@ export function App() {
   };
 
   return (
-    <div className='container'>
-      <div className='page'>
+    <div style={{ display: 'flex', justifyContent:'center', alignItems:'center', height: '100vh'}}>
+      <div style={{ textAlign: 'center'}}>
         {showAskPage && (
           <div>
             <h1>
